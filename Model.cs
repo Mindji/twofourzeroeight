@@ -10,6 +10,17 @@ namespace twozerofoureight
     public class Model
     {
         protected ArrayList oList;
+        public int score;
+        //public int getScore();
+        public bool checkGameOver;
+        public bool GameOver(){
+
+            return checkGameOver;
+        } 
+        public int getScore()
+        {
+            return score;
+        }
 
         public Model()
         {
